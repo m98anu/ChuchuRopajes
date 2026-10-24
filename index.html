@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chuchu Ropajes</title>
+  <meta name="description" content="Tiendas de ropa con fibra y confección europeas, filtradas por tipo de prenda y género. Enlaces revisados cada mes.">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('chuchu-theme'); } catch (e) {}
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%23FF8CC6'/%3E%3Ccircle cx='23' cy='22' r='8' fill='%23fff' opacity='.7'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#resultados">Saltar a las tiendas</a>
+
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Chuchu Ropajes, inicio">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span class="brand-name">Chuchu Ropajes</span>
+    </a>
+    <button class="theme-toggle" type="button" id="themeToggle" aria-pressed="false">
+      <span class="theme-icon" aria-hidden="true"></span>
+      <span class="theme-label">Modo oscuro</span>
+    </button>
+  </header>
+
+  <main class="page">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Ropa hecha en Europa, sin letra pequeña</h1>
+      <p class="hero-lead">Tiendas que fabrican en Europa con fibras naturales o recicladas y que cuentan de dónde viene cada prenda. La mayoría envía a Suiza, España y Alemania; confírmalo al pagar.</p>
+      <p class="hero-meta" id="heroMeta">Cargando tiendas…</p>
+    </section>
+
+    <section class="gender" aria-labelledby="gender-title">
+      <h2 id="gender-title" class="visually-hidden">Elige para quién</h2>
+      <div class="gumballs" role="radiogroup" aria-label="Género">
+        <button class="gumball" role="radio" aria-checked="true" data-gender="todos"><span class="ball ball-todos" aria-hidden="true"></span><span class="gum-label">Todo</span></button>
+        <button class="gumball" role="radio" aria-checked="false" data-gender="mujer"><span class="ball ball-mujer" aria-hidden="true"></span><span class="gum-label">Mujer</span></button>
+        <button class="gumball" role="radio" aria-checked="false" data-gender="hombre"><span class="ball ball-hombre" aria-hidden="true"></span><span class="gum-label">Hombre</span></button>
+        <button class="gumball" role="radio" aria-checked="false" data-gender="neutro"><span class="ball ball-neutro" aria-hidden="true"></span><span class="gum-label">Neutro</span></button>
+      </div>
+    </section>
+
+    <div class="layout">
+      <aside class="sidebar" aria-labelledby="cat-title">
+        <h2 id="cat-title" class="side-title">Tipo de ropa</h2>
+        <ul class="cat-list" id="catList"></ul>
+
+        <div class="legend">
+          <h2 class="side-title">Qué significan los caramelos</h2>
+          <ul>
+            <li><span class="dots" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span> Fibra y confección europeas, cadena publicada</li>
+            <li><span class="dots" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i></span> Confección europea, fibra de fuera o sin detallar</li>
+            <li><span class="dots" aria-hidden="true"><i class="on"></i><i></i><i></i></span> Solo confección europea</li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="results" id="resultados" aria-live="polite">
+        <label class="search">
+          <span class="visually-hidden">Buscar tienda, país o fibra</span>
+          <input type="search" id="searchInput" placeholder="Busca una tienda, un país o una fibra">
+        </label>
+        <div id="groups"></div>
+      </section>
+    </div>
+
+    <section class="tip" aria-labelledby="tip-title">
+      <h2 id="tip-title">¿Y Zara, Lefties o Massimo Dutti?</h2>
+      <p>Inditex indica el país de fabricación en cada ficha web, en «Composición, cuidados y origen». Quédate solo con las que dicen España, Portugal, Italia, Rumanía, Bulgaria o Turquía, y evita las que mezclan varios países: no sabrás cuál te llega. Carrefour TEX no publica el origen online.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Los enlaces se revisan el día 1 de cada mes. Si una tienda deja de funcionar, aparece marcada hasta la siguiente revisión.</p>
+  </footer>
+
+  <template id="cardTpl">
+    <article class="card">
+      <div class="card-head">
+        <span class="blob" aria-hidden="true"></span>
+        <div>
+          <h3 class="card-name"></h3>
+          <p class="card-origin"></p>
+        </div>
+        <span class="dots card-level"></span>
+      </div>
+      <p class="card-desc"></p>
+      <p class="card-fiber"></p>
+      <ul class="card-tags"></ul>
+      <div class="card-foot">
+        <p class="card-status"></p>
+        <a class="visit" target="_blank" rel="noopener">Visitar web</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

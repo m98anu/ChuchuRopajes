@@ -1,0 +1,377 @@
+{
+  "updated": "2026-10-24",
+  "categories": {
+    "casual": "Casual y básicos",
+    "elegante": "Elegante y eventos",
+    "oficina": "Oficina y business",
+    "deporte": "Deporte",
+    "casa": "Casa y pijamas",
+    "interior": "Ropa interior",
+    "bano": "Baño",
+    "multimarca": "Tiendas multimarca"
+  },
+  "sites": [
+    {
+      "id": "burel-factory",
+      "name": "Burel Factory",
+      "url": "https://burelfactory.com/en",
+      "description": "Abrigos, chaquetas y punto de lana de ovejas de la Serra da Estrela, tejida en su propia fábrica centenaria.",
+      "made_in": "Portugal",
+      "fiber": "Lana portuguesa",
+      "level": 3,
+      "gender": "neutro",
+      "categories": [
+        "casual",
+        "elegante",
+        "oficina"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "naz",
+      "name": "Näz",
+      "url": "https://clother.ch/en/collections/naz",
+      "description": "Blazers, camisas y punto de lana reciclada de residuos de fábricas portuguesas, cosidos en ocho talleres pequeños.",
+      "made_in": "Portugal",
+      "fiber": "Lana reciclada, lino, algodón GOTS",
+      "level": 3,
+      "gender": "neutro",
+      "categories": [
+        "casual",
+        "elegante",
+        "oficina"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "rifo",
+      "name": "Rifò",
+      "url": "https://rifo-lab.com/en",
+      "description": "Jerséis y accesorios de cachemir y lana reciclados en el distrito textil de Prato, todo en un radio de 30 km.",
+      "made_in": "Italia",
+      "fiber": "Cachemir y lana reciclados (GRS)",
+      "level": 3,
+      "gender": "neutro",
+      "categories": [
+        "casual",
+        "oficina"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "magic-linen",
+      "name": "Magic Linen",
+      "url": "https://magiclinen.com",
+      "description": "Camisas, vestidos y pijamas de lino lavado a la piedra, hechos en su estudio de Vilna.",
+      "made_in": "Lituania",
+      "fiber": "Lino europeo",
+      "level": 3,
+      "gender": "neutro",
+      "categories": [
+        "casual",
+        "casa"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "manomama",
+      "name": "Manomama",
+      "url": "https://manomama.de",
+      "description": "Empresa social de Augsburgo con vaqueros cuya cadena entera, del denim al hilo, está en Alemania.",
+      "made_in": "Alemania",
+      "fiber": "Algodón orgánico, denim alemán",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "casual"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "asket",
+      "name": "ASKET",
+      "url": "https://www.asket.com",
+      "description": "Colección permanente con trazabilidad publicada por prenda e impacto de CO₂ y agua en cada ficha.",
+      "made_in": "Portugal e Italia (revisar ficha)",
+      "fiber": "Lino europeo, algodón orgánico, lana reciclada",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "casual",
+        "oficina"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "trigema",
+      "name": "Trigema",
+      "url": "https://www.trigema.de",
+      "description": "Camisetas, sudaderas y ropa deportiva fabricadas en Burladingen, del hilo a la prenda.",
+      "made_in": "Alemania",
+      "fiber": "Algodón no europeo",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "casual",
+        "deporte"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "grune-erde",
+      "name": "Grüne Erde",
+      "url": "https://www.grueneerde.com",
+      "description": "Ropa de fibras naturales con sello GOTS y sin elastano; la mayor parte se fabrica en Europa.",
+      "made_in": "Europa (90 %)",
+      "fiber": "Fibras naturales GOTS",
+      "level": 2,
+      "gender": "mujer",
+      "categories": [
+        "casual",
+        "casa"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "zegna-oasi-lino",
+      "name": "Zegna Oasi Lino",
+      "url": "https://www.zegna.com/de-en/materials-traceability/sustainable-linen-clothing/",
+      "description": "Trajes, camisas y sobrecamisas de lino de Normandía y Bélgica con trazabilidad certificada.",
+      "made_in": "Italia",
+      "fiber": "Lino European Flax / Masters of Linen",
+      "level": 3,
+      "gender": "hombre",
+      "categories": [
+        "elegante",
+        "oficina"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "son-de-flor",
+      "name": "Son de Flor",
+      "url": "https://sondeflor.com",
+      "description": "Vestidos de lino para el día a día, eventos y novias, tejidos en Kaunas y cosidos en Lituania.",
+      "made_in": "Lituania",
+      "fiber": "Lino European Flax",
+      "level": 3,
+      "gender": "mujer",
+      "categories": [
+        "elegante",
+        "casual"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "sepiia",
+      "name": "Sepiia",
+      "url": "https://sepiia.com",
+      "description": "Camisas y blazers antimanchas y sin plancha para la oficina, producidos entre España y Portugal.",
+      "made_in": "España y Portugal",
+      "fiber": "Tejido técnico sintético",
+      "level": 1,
+      "gender": "neutro",
+      "categories": [
+        "oficina"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "woolpower",
+      "name": "Woolpower",
+      "url": "https://www.woolpower.se/en",
+      "description": "Capas térmicas de merino tejidas y cosidas en su propia fábrica de Östersund; cada costurera firma la prenda.",
+      "made_in": "Suecia",
+      "fiber": "Merino de Sudamérica, hilado en Alemania",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "deporte",
+        "interior"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "isadore",
+      "name": "Isadore",
+      "url": "https://isadore.com",
+      "description": "Ropa de ciclismo y running de merino, cosida en Púchov por la marca de los hermanos Velits.",
+      "made_in": "Eslovaquia",
+      "fiber": "Merino y tejidos técnicos",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "deporte"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "hanro",
+      "name": "Hanro",
+      "url": "https://www.hanro.com",
+      "description": "Pijamas y ropa interior de TENCEL Micromodal fabricado en Austria a partir de madera.",
+      "made_in": "Europa (revisar ficha)",
+      "fiber": "TENCEL Micromodal austriaco",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "casa",
+        "interior"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "calida",
+      "name": "Calida",
+      "url": "https://www.calida.com",
+      "description": "Pijamas y ropa interior de TENCEL; su línea 100% Nature es compostable (Cradle to Cradle).",
+      "made_in": "Hungría",
+      "fiber": "TENCEL Lyocell",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "casa",
+        "interior"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "zimmerli",
+      "name": "Zimmerli",
+      "url": "https://www.zimmerli.com",
+      "description": "Ropa interior cosida en el Ticino; pijamas y loungewear en otros talleres europeos.",
+      "made_in": "Suiza",
+      "fiber": "Algodón de EE. UU.",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "interior",
+        "casa"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "mymarini",
+      "name": "Mymarini",
+      "url": "https://mymarini.com",
+      "description": "Bikinis y bañadores reversibles de nailon regenerado, cosidos en Croacia y Portugal. B Corp.",
+      "made_in": "Croacia y Portugal",
+      "fiber": "ECONYL (nailon regenerado)",
+      "level": 2,
+      "gender": "mujer",
+      "categories": [
+        "bano"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "gilis",
+      "name": "Gili's",
+      "url": "https://www.gilis.com/en",
+      "description": "Bañadores de hombre de poliéster reciclado Seaqual tejido en España y cosido en Portugal.",
+      "made_in": "Portugal",
+      "fiber": "Poliéster reciclado Seaqual",
+      "level": 2,
+      "gender": "hombre",
+      "categories": [
+        "bano"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "colorful-standard",
+      "name": "Colorful Standard",
+      "url": "https://colorfulstandard.com",
+      "description": "Básicos de algodón orgánico y merino reciclado, y bañadores de poliamida reciclada, hechos en Portugal.",
+      "made_in": "Portugal",
+      "fiber": "Algodón orgánico, merino reciclado",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "casual",
+        "bano"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "dolores-cortes",
+      "name": "Dolores Cortés",
+      "url": "https://www.elcorteingles.es/dolores-cortes/moda-mujer/",
+      "description": "Bañadores y biquinis de la casa de Vila-real, fabricados en su propia fábrica desde los años 50.",
+      "made_in": "España",
+      "fiber": "Tejidos elásticos convencionales",
+      "level": 1,
+      "gender": "mujer",
+      "categories": [
+        "bano"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "clother",
+      "name": "Clother",
+      "url": "https://clother.ch/en",
+      "description": "Tienda de Ginebra que solo vende marcas fabricadas a menos de 1.500 km de Suiza.",
+      "made_in": "Varias marcas europeas",
+      "fiber": "Mín. 70 % reciclado, natural u orgánico",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "multimarca"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "manufactum",
+      "name": "Manufactum",
+      "url": "https://www.manufactum.com",
+      "description": "Tienda alemana que indica país de fabricación y origen de la fibra en cada prenda; vende Rifò y Zimmerli.",
+      "made_in": "Varias marcas",
+      "fiber": "Varía por marca",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "multimarca"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "transa",
+      "name": "Transa",
+      "url": "https://www.transa.ch/en",
+      "description": "Tienda suiza de outdoor con Woolpower y otras marcas técnicas, sin aduana para compradores en Suiza.",
+      "made_in": "Varias marcas",
+      "fiber": "Varía por marca",
+      "level": 1,
+      "gender": "neutro",
+      "categories": [
+        "multimarca",
+        "deporte"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    }
+  ]
+}
