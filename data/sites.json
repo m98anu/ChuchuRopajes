@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-11-01",
   "categories": {
     "casual": "Casual y básicos",
     "elegante": "Elegante y eventos",
@@ -26,7 +26,7 @@
         "oficina"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "naz",
@@ -43,7 +43,7 @@
         "oficina"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "rifo",
@@ -59,7 +59,7 @@
         "oficina"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "magic-linen",
@@ -75,7 +75,7 @@
         "casa"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "manomama",
@@ -90,7 +90,7 @@
         "casual"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "asket",
@@ -106,7 +106,7 @@
         "oficina"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "trigema",
@@ -122,7 +122,7 @@
         "deporte"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "grune-erde",
@@ -138,7 +138,7 @@
         "casa"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "zegna-oasi-lino",
@@ -154,7 +154,7 @@
         "oficina"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "son-de-flor",
@@ -170,7 +170,7 @@
         "casual"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "sepiia",
@@ -185,7 +185,7 @@
         "oficina"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "woolpower",
@@ -201,7 +201,7 @@
         "interior"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "isadore",
@@ -216,7 +216,7 @@
         "deporte"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "hanro",
@@ -232,7 +232,7 @@
         "interior"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "calida",
@@ -248,7 +248,7 @@
         "interior"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "zimmerli",
@@ -264,7 +264,7 @@
         "casa"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "mymarini",
@@ -279,7 +279,7 @@
         "bano"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "gilis",
@@ -294,7 +294,7 @@
         "bano"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "colorful-standard",
@@ -310,7 +310,7 @@
         "bano"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "dolores-cortes",
@@ -325,7 +325,7 @@
         "bano"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "clother",
@@ -340,7 +340,7 @@
         "multimarca"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "manufactum",
@@ -355,7 +355,7 @@
         "multimarca"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "transa",
@@ -371,7 +371,7 @@
         "deporte"
       ],
       "status": "ok",
-      "last_checked": "2026-10-24"
+      "last_checked": "2026-11-01"
     }
   ]
 }
