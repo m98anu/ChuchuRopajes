@@ -13,13 +13,18 @@
     casa: 'var(--peach)',
     interior: 'var(--gum)',
     bano: 'var(--sky)',
-    multimarca: 'var(--butter)'
+    multimarca: 'var(--butter)',
+    asequible: 'var(--mint)',
+    'segunda-mano': 'var(--peach)'
   };
   var LEVEL_TEXT = {
     3: 'Fibra y confección europeas, cadena publicada',
     2: 'Confección europea, fibra de fuera o sin detallar',
     1: 'Solo confección europea'
   };
+
+  var USED = 'segunda-mano';
+  function isUsed(site) { return site.categories.indexOf(USED) > -1; }
 
   var state = { gender: 'todos', cat: 'todas', q: '' };
   var data = null;
@@ -129,15 +134,19 @@
 
     node.querySelector('.card-name').textContent = site.name;
     node.querySelector('.card-origin').textContent =
-      site.categories.indexOf('multimarca') > -1 ? site.made_in : 'Hecho en ' + site.made_in;
+      (site.categories.indexOf('multimarca') > -1 || isUsed(site)) ? site.made_in : 'Hecho en ' + site.made_in;
     node.querySelector('.card-desc').textContent = site.description;
     node.querySelector('.card-fiber').textContent = 'Fibra: ' + site.fiber;
 
     var lvl = node.querySelector('.card-level');
+    if (isUsed(site)) {
+      lvl.remove();
+    } else {
     for (var i = 1; i <= 3; i++) lvl.appendChild(el('i', i <= site.level ? 'on' : ''));
     lvl.setAttribute('role', 'img');
     lvl.setAttribute('aria-label', 'Trazabilidad ' + site.level + ' de 3: ' + LEVEL_TEXT[site.level]);
     lvl.title = LEVEL_TEXT[site.level];
+    }
 
     var tags = node.querySelector('.card-tags');
     site.categories.forEach(function (c) {
@@ -190,9 +199,11 @@
       return;
     }
 
+    var used = visible.filter(isUsed);
+    var fresh = visible.filter(function (s) { return !isUsed(s); });
     var genders = state.gender === 'todos' ? GENDER_ORDER : [state.gender];
     genders.forEach(function (g) {
-      var items = sortSites(visible.filter(function (s) { return s.gender === g; }));
+      var items = sortSites(fresh.filter(function (s) { return s.gender === g; }));
       if (!items.length) return;
       var sec = el('section', 'group');
       var h = el('h2', 'group-title');
@@ -209,6 +220,24 @@
       sec.appendChild(grid);
       wrap.appendChild(sec);
     });
+
+    if (used.length) {
+      var usec = el('section', 'group');
+      var uh = el('h2', 'group-title');
+      var udot = el('span', 'mini');
+      udot.style.background = CAT_COLOR[USED];
+      udot.setAttribute('aria-hidden', 'true');
+      uh.appendChild(udot);
+      uh.appendChild(document.createTextNode((data.categories[USED] || 'Segunda mano') + ' '));
+      uh.appendChild(el('span', 'n', used.length === 1 ? '1 tienda' : used.length + ' tiendas'));
+      usec.appendChild(uh);
+      usec.appendChild(el('p', 'card-fiber', 'Ropa usada de cualquier marca y origen: aquí lo que cuenta es alargar su vida, no dónde se fabricó.'));
+      var ugrid = el('div', 'grid');
+      used.slice().sort(function (a, b) { return a.name.localeCompare(b.name, 'es'); })
+        .forEach(function (s) { ugrid.appendChild(buildCard(s)); });
+      usec.appendChild(ugrid);
+      wrap.appendChild(usec);
+    }
   }
 
   /* ---------- Gender gumballs ---------- */

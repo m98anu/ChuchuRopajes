@@ -8,7 +8,9 @@
     "casa": "Casa y pijamas",
     "interior": "Ropa interior",
     "bano": "Baño",
-    "multimarca": "Tiendas multimarca"
+    "multimarca": "Tiendas multimarca",
+    "asequible": "Precio asequible",
+    "segunda-mano": "Segunda mano"
   },
   "sites": [
     {
@@ -403,6 +405,110 @@
         "interior",
         "casa",
         "bano"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "ferrys",
+      "name": "Ferry's",
+      "url": "https://ferrys.es",
+      "description": "Fabricante de Canals (Valencia) desde 1928 con ropa interior, camisetas, pijamas y calcetines de algodón hechos en España; camiseta básica de algodón peinado por unos 18 € y envío a Alemania y Suiza.",
+      "made_in": "España",
+      "fiber": "Algodón 100 % y algodón peinado (algunas con elastano o poliéster)",
+      "level": 1,
+      "gender": "neutro",
+      "categories": [
+        "asequible",
+        "casual",
+        "interior",
+        "casa"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "percentil",
+      "name": "Percentil",
+      "url": "https://www.percentil.com",
+      "description": "Tienda curada de segunda mano con sede en Getafe (Madrid): revisa cada prenda y vende ropa de mujer, hombre y niños de más de 500 marcas desde unos 6 €.",
+      "made_in": "Tienda en España (envía también a Francia, Alemania e Italia)",
+      "fiber": "Varias (ropa reutilizada)",
+      "level": 0,
+      "gender": "neutro",
+      "categories": [
+        "segunda-mano",
+        "asequible",
+        "casual",
+        "elegante"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "micolet",
+      "name": "Micolet",
+      "url": "https://www.micolet.com",
+      "description": "Tienda de segunda mano de Bilbao que recoge, fotografía y revende ropa de particulares, sobre todo de mujer, con descuentos de hasta el 90 % sobre el precio original.",
+      "made_in": "Tienda en España (envía a España y Portugal)",
+      "fiber": "Varias (ropa reutilizada)",
+      "level": 0,
+      "gender": "mujer",
+      "categories": [
+        "segunda-mano",
+        "asequible",
+        "casual",
+        "elegante"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "mi-ropa-go",
+      "name": "Mi Ropa Go!",
+      "url": "http://www.miropago.com",
+      "description": "Tienda madrileña de segunda mano seleccionada, solo de mujer, con abrigos, trajes y vestidos de marcas de gama media entre 9 y 33 €.",
+      "made_in": "Tienda en España (envía a España)",
+      "fiber": "Varias (ropa reutilizada)",
+      "level": 0,
+      "gender": "mujer",
+      "categories": [
+        "segunda-mano",
+        "asequible",
+        "casual",
+        "elegante"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "wallapop",
+      "name": "Wallapop",
+      "url": "https://es.wallapop.com",
+      "description": "Mercado de segunda mano entre particulares nacido en Barcelona, con una sección de moda para todos los públicos y envíos dentro de España.",
+      "made_in": "Plataforma en España (envíos solo dentro de España)",
+      "fiber": "Varias (ropa reutilizada)",
+      "level": 0,
+      "gender": "neutro",
+      "categories": [
+        "segunda-mano",
+        "asequible"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "vinted",
+      "name": "Vinted",
+      "url": "https://www.vinted.es",
+      "description": "Mercado lituano de ropa usada entre particulares, muy activo en España, con prendas de mujer, hombre y niños a precios bajos.",
+      "made_in": "Plataforma de Lituania (envía dentro de España; no opera en Suiza)",
+      "fiber": "Varias (ropa reutilizada)",
+      "level": 0,
+      "gender": "neutro",
+      "categories": [
+        "segunda-mano",
+        "asequible"
       ],
       "status": "pendiente",
       "last_checked": null

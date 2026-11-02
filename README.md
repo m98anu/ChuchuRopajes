@@ -9,6 +9,8 @@ Agregador de tiendas de ropa con fibra y confección europeas, filtrable por tip
   - `gender`: `mujer`, `hombre` o `neutro` (si vende para ambos).
   - `categories`: una o varias de las claves de `categories`.
   - `level`: 3 = fibra y confección europeas con cadena publicada; 2 = confección europea, fibra de fuera o sin detallar; 1 = solo confección europea.
+  - Tiendas de segunda mano: categoría `segunda-mano`, `level` 0 y `made_in` con el lugar de la tienda. Salen en una sección aparte al final.
+  - `asequible`: marcas con básicos desde unos 15–25 €.
 - `scripts/check_links.py` — comprueba cada enlace y guarda `status` (`ok` / `roto`) y `last_checked`.
 
 ## Automatización
