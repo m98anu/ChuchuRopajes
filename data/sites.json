@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "categories": {
     "casual": "Casual y básicos",
     "elegante": "Elegante y eventos",
@@ -372,6 +372,40 @@
       ],
       "status": "ok",
       "last_checked": "2026-11-01"
+    },
+    {
+      "id": "dilling",
+      "name": "DILLING",
+      "url": "https://eu.dilling.com",
+      "description": "Ropa interior y capas base de merino orgánico y algodón orgánico, cosida en su fábrica de Lituania y teñida en Dinamarca, para hombre, mujer y niños.",
+      "made_in": "Lituania, Dinamarca",
+      "fiber": "Merino orgánico (Argentina), algodón orgánico",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "interior",
+        "deporte"
+      ],
+      "status": "pendiente",
+      "last_checked": null
+    },
+    {
+      "id": "merz-b-schwanen",
+      "name": "Merz b. Schwanen",
+      "url": "https://www.merzbschwanen.com",
+      "description": "Camisetas, henleys, ropa interior, pijamas y bañadores de algodón orgánico; la línea Originals se teje en telares circulares históricos de Albstadt (Alemania) y la Good Basics se confecciona en Portugal.",
+      "made_in": "Alemania, Portugal",
+      "fiber": "Algodón orgánico (de Grecia), merino",
+      "level": 2,
+      "gender": "neutro",
+      "categories": [
+        "casual",
+        "interior",
+        "casa",
+        "bano"
+      ],
+      "status": "pendiente",
+      "last_checked": null
     }
   ]
 }
